@@ -7,11 +7,11 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'keith',
-    PREFIXE: process.env.PREFIX || "+",
+module.exports = { session: process.env.SESSION_ID || 'ash',
+    PREFIXE: process.env.PREFIX || ",",
     GITHUB : process.env.GITHUB|| 'https://github.com/Keithkeizzah/ALPHA-MD',
-    OWNER_NAME : process.env.OWNER_NAME || "Keith",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254748387615",  
+    OWNER_NAME : process.env.OWNER_NAME || "Ash",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "256708217427",  
     CHATBOT : process.env.CHATBOT || "no",  
     CHATBOT_INBOX : process.env.CHATBOT_INBOX || "yes",                     
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
